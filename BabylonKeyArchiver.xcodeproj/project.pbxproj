@@ -1,0 +1,682 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C479B464C079372134DB7C6 /* Pods_BabylonKeyArchiver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D6A8641B033B814F0FF3607 /* Pods_BabylonKeyArchiver.framework */; };
+		D20333371F74C1AB00F34391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20333361F74C1AB00F34391 /* ViewController.swift */; };
+		D203333C1F74C1C000F34391 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20333381F74C1C000F34391 /* Address.swift */; };
+		D203333D1F74C1C000F34391 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20333391F74C1C000F34391 /* Company.swift */; };
+		D203333E1F74C1C000F34391 /* Geo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203333A1F74C1C000F34391 /* Geo.swift */; };
+		D203333F1F74C1C000F34391 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D203333B1F74C1C000F34391 /* User.swift */; };
+		D20333451F74C5CF00F34391 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D20333431F74C5CF00F34391 /* UserViewCell.swift */; };
+		D20333461F74C5CF00F34391 /* UserViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D20333441F74C5CF00F34391 /* UserViewCell.xib */; };
+		D204BD1D1F6B7976003BFFAC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204BD1C1F6B7976003BFFAC /* AppDelegate.swift */; };
+		D204BD221F6B7976003BFFAC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D204BD201F6B7976003BFFAC /* Main.storyboard */; };
+		D204BD241F6B7976003BFFAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D204BD231F6B7976003BFFAC /* Assets.xcassets */; };
+		D204BD271F6B7976003BFFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D204BD251F6B7976003BFFAC /* LaunchScreen.storyboard */; };
+		D204BD321F6B7976003BFFAC /* BabylonKeyArchiverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204BD311F6B7976003BFFAC /* BabylonKeyArchiverTests.swift */; };
+		D204BD3D1F6B7976003BFFAC /* BabylonKeyArchiverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D204BD3C1F6B7976003BFFAC /* BabylonKeyArchiverUITests.swift */; };
+		D2C67BB11F74A0EB0051887B /* EditUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C67BAF1F74A0EB0051887B /* EditUserViewController.swift */; };
+		D2C67BB21F74A0EB0051887B /* EditUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C67BB01F74A0EB0051887B /* EditUserViewController.xib */; };
+		D2FCDD0F1F71009F0018B0ED /* UserDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FCDD0D1F71009F0018B0ED /* UserDetailViewController.swift */; };
+		D2FCDD101F71009F0018B0ED /* UserDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2FCDD0E1F71009F0018B0ED /* UserDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D204BD2E1F6B7976003BFFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D204BD111F6B7975003BFFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D204BD181F6B7976003BFFAC;
+			remoteInfo = BabylonKeyArchiver;
+		};
+		D204BD391F6B7976003BFFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D204BD111F6B7975003BFFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D204BD181F6B7976003BFFAC;
+			remoteInfo = BabylonKeyArchiver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1DD7504CE2F2B1DAA8511953 /* Pods-BabylonKeyArchiver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonKeyArchiver.release.xcconfig"; path = "Pods/Target Support Files/Pods-BabylonKeyArchiver/Pods-BabylonKeyArchiver.release.xcconfig"; sourceTree = "<group>"; };
+		2D6A8641B033B814F0FF3607 /* Pods_BabylonKeyArchiver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BabylonKeyArchiver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92689A938899A8459507799D /* Pods-BabylonKeyArchiver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BabylonKeyArchiver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BabylonKeyArchiver/Pods-BabylonKeyArchiver.debug.xcconfig"; sourceTree = "<group>"; };
+		D20333361F74C1AB00F34391 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController/ViewController.swift; sourceTree = "<group>"; };
+		D20333381F74C1C000F34391 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Model/Address.swift; sourceTree = "<group>"; };
+		D20333391F74C1C000F34391 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Company.swift; path = Model/Company.swift; sourceTree = "<group>"; };
+		D203333A1F74C1C000F34391 /* Geo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Geo.swift; path = Model/Geo.swift; sourceTree = "<group>"; };
+		D203333B1F74C1C000F34391 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Model/User.swift; sourceTree = "<group>"; };
+		D20333431F74C5CF00F34391 /* UserViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserViewCell.swift; path = CustomView/UserViewCell.swift; sourceTree = "<group>"; };
+		D20333441F74C5CF00F34391 /* UserViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserViewCell.xib; path = CustomView/UserViewCell.xib; sourceTree = "<group>"; };
+		D204BD191F6B7976003BFFAC /* BabylonKeyArchiver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabylonKeyArchiver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D204BD1C1F6B7976003BFFAC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D204BD211F6B7976003BFFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D204BD231F6B7976003BFFAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D204BD261F6B7976003BFFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D204BD281F6B7976003BFFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D204BD2D1F6B7976003BFFAC /* BabylonKeyArchiverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabylonKeyArchiverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D204BD311F6B7976003BFFAC /* BabylonKeyArchiverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabylonKeyArchiverTests.swift; sourceTree = "<group>"; };
+		D204BD331F6B7976003BFFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D204BD381F6B7976003BFFAC /* BabylonKeyArchiverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabylonKeyArchiverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D204BD3C1F6B7976003BFFAC /* BabylonKeyArchiverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabylonKeyArchiverUITests.swift; sourceTree = "<group>"; };
+		D204BD3E1F6B7976003BFFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C67BAF1F74A0EB0051887B /* EditUserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditUserViewController.swift; path = ViewController/EditUserViewController.swift; sourceTree = "<group>"; };
+		D2C67BB01F74A0EB0051887B /* EditUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = EditUserViewController.xib; path = ViewController/EditUserViewController.xib; sourceTree = "<group>"; };
+		D2FCDD0D1F71009F0018B0ED /* UserDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserDetailViewController.swift; path = ViewController/UserDetailViewController.swift; sourceTree = "<group>"; };
+		D2FCDD0E1F71009F0018B0ED /* UserDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UserDetailViewController.xib; path = ViewController/UserDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D204BD161F6B7976003BFFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C479B464C079372134DB7C6 /* Pods_BabylonKeyArchiver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D204BD2A1F6B7976003BFFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D204BD351F6B7976003BFFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		898A186159B0D4B51271C0EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D6A8641B033B814F0FF3607 /* Pods_BabylonKeyArchiver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B86FAB729B37DBD1F1573BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92689A938899A8459507799D /* Pods-BabylonKeyArchiver.debug.xcconfig */,
+				1DD7504CE2F2B1DAA8511953 /* Pods-BabylonKeyArchiver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D20333401F74C57400F34391 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				D20333431F74C5CF00F34391 /* UserViewCell.swift */,
+				D20333441F74C5CF00F34391 /* UserViewCell.xib */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		D204BD101F6B7975003BFFAC = {
+			isa = PBXGroup;
+			children = (
+				D204BD1B1F6B7976003BFFAC /* BabylonKeyArchiver */,
+				D204BD301F6B7976003BFFAC /* BabylonKeyArchiverTests */,
+				D204BD3B1F6B7976003BFFAC /* BabylonKeyArchiverUITests */,
+				D204BD1A1F6B7976003BFFAC /* Products */,
+				9B86FAB729B37DBD1F1573BC /* Pods */,
+				898A186159B0D4B51271C0EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D204BD1A1F6B7976003BFFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D204BD191F6B7976003BFFAC /* BabylonKeyArchiver.app */,
+				D204BD2D1F6B7976003BFFAC /* BabylonKeyArchiverTests.xctest */,
+				D204BD381F6B7976003BFFAC /* BabylonKeyArchiverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D204BD1B1F6B7976003BFFAC /* BabylonKeyArchiver */ = {
+			isa = PBXGroup;
+			children = (
+				D20333401F74C57400F34391 /* CustomView */,
+				D2FCDD0C1F70FF7D0018B0ED /* ViewController */,
+				D2FCDD0B1F70FF5F0018B0ED /* Model */,
+				D204BD1C1F6B7976003BFFAC /* AppDelegate.swift */,
+				D204BD201F6B7976003BFFAC /* Main.storyboard */,
+				D204BD231F6B7976003BFFAC /* Assets.xcassets */,
+				D204BD251F6B7976003BFFAC /* LaunchScreen.storyboard */,
+				D204BD281F6B7976003BFFAC /* Info.plist */,
+			);
+			path = BabylonKeyArchiver;
+			sourceTree = "<group>";
+		};
+		D204BD301F6B7976003BFFAC /* BabylonKeyArchiverTests */ = {
+			isa = PBXGroup;
+			children = (
+				D204BD311F6B7976003BFFAC /* BabylonKeyArchiverTests.swift */,
+				D204BD331F6B7976003BFFAC /* Info.plist */,
+			);
+			path = BabylonKeyArchiverTests;
+			sourceTree = "<group>";
+		};
+		D204BD3B1F6B7976003BFFAC /* BabylonKeyArchiverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D204BD3C1F6B7976003BFFAC /* BabylonKeyArchiverUITests.swift */,
+				D204BD3E1F6B7976003BFFAC /* Info.plist */,
+			);
+			path = BabylonKeyArchiverUITests;
+			sourceTree = "<group>";
+		};
+		D2FCDD0B1F70FF5F0018B0ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D20333381F74C1C000F34391 /* Address.swift */,
+				D20333391F74C1C000F34391 /* Company.swift */,
+				D203333A1F74C1C000F34391 /* Geo.swift */,
+				D203333B1F74C1C000F34391 /* User.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		D2FCDD0C1F70FF7D0018B0ED /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D20333361F74C1AB00F34391 /* ViewController.swift */,
+				D2FCDD0D1F71009F0018B0ED /* UserDetailViewController.swift */,
+				D2FCDD0E1F71009F0018B0ED /* UserDetailViewController.xib */,
+				D2C67BAF1F74A0EB0051887B /* EditUserViewController.swift */,
+				D2C67BB01F74A0EB0051887B /* EditUserViewController.xib */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D204BD181F6B7976003BFFAC /* BabylonKeyArchiver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D204BD411F6B7976003BFFAC /* Build configuration list for PBXNativeTarget "BabylonKeyArchiver" */;
+			buildPhases = (
+				0B39A7E7DA0605F7A676EB51 /* [CP] Check Pods Manifest.lock */,
+				D204BD151F6B7976003BFFAC /* Sources */,
+				D204BD161F6B7976003BFFAC /* Frameworks */,
+				D204BD171F6B7976003BFFAC /* Resources */,
+				DCB57AE94FD94A074A209E53 /* [CP] Embed Pods Frameworks */,
+				E4A49ED6DB14E4E9D347AD3E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabylonKeyArchiver;
+			productName = BabylonKeyArchiver;
+			productReference = D204BD191F6B7976003BFFAC /* BabylonKeyArchiver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D204BD2C1F6B7976003BFFAC /* BabylonKeyArchiverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D204BD441F6B7976003BFFAC /* Build configuration list for PBXNativeTarget "BabylonKeyArchiverTests" */;
+			buildPhases = (
+				D204BD291F6B7976003BFFAC /* Sources */,
+				D204BD2A1F6B7976003BFFAC /* Frameworks */,
+				D204BD2B1F6B7976003BFFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D204BD2F1F6B7976003BFFAC /* PBXTargetDependency */,
+			);
+			name = BabylonKeyArchiverTests;
+			productName = BabylonKeyArchiverTests;
+			productReference = D204BD2D1F6B7976003BFFAC /* BabylonKeyArchiverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D204BD371F6B7976003BFFAC /* BabylonKeyArchiverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D204BD471F6B7976003BFFAC /* Build configuration list for PBXNativeTarget "BabylonKeyArchiverUITests" */;
+			buildPhases = (
+				D204BD341F6B7976003BFFAC /* Sources */,
+				D204BD351F6B7976003BFFAC /* Frameworks */,
+				D204BD361F6B7976003BFFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D204BD3A1F6B7976003BFFAC /* PBXTargetDependency */,
+			);
+			name = BabylonKeyArchiverUITests;
+			productName = BabylonKeyArchiverUITests;
+			productReference = D204BD381F6B7976003BFFAC /* BabylonKeyArchiverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D204BD111F6B7975003BFFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bukalapak;
+				TargetAttributes = {
+					D204BD181F6B7976003BFFAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D204BD2C1F6B7976003BFFAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D204BD181F6B7976003BFFAC;
+					};
+					D204BD371F6B7976003BFFAC = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D204BD181F6B7976003BFFAC;
+					};
+				};
+			};
+			buildConfigurationList = D204BD141F6B7975003BFFAC /* Build configuration list for PBXProject "BabylonKeyArchiver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D204BD101F6B7975003BFFAC;
+			productRefGroup = D204BD1A1F6B7976003BFFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D204BD181F6B7976003BFFAC /* BabylonKeyArchiver */,
+				D204BD2C1F6B7976003BFFAC /* BabylonKeyArchiverTests */,
+				D204BD371F6B7976003BFFAC /* BabylonKeyArchiverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D204BD171F6B7976003BFFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D204BD271F6B7976003BFFAC /* LaunchScreen.storyboard in Resources */,
+				D2FCDD101F71009F0018B0ED /* UserDetailViewController.xib in Resources */,
+				D204BD241F6B7976003BFFAC /* Assets.xcassets in Resources */,
+				D2C67BB21F74A0EB0051887B /* EditUserViewController.xib in Resources */,
+				D20333461F74C5CF00F34391 /* UserViewCell.xib in Resources */,
+				D204BD221F6B7976003BFFAC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D204BD2B1F6B7976003BFFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D204BD361F6B7976003BFFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B39A7E7DA0605F7A676EB51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BabylonKeyArchiver-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCB57AE94FD94A074A209E53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BabylonKeyArchiver/Pods-BabylonKeyArchiver-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabylonKeyArchiver/Pods-BabylonKeyArchiver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4A49ED6DB14E4E9D347AD3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BabylonKeyArchiver/Pods-BabylonKeyArchiver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D204BD151F6B7976003BFFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D203333F1F74C1C000F34391 /* User.swift in Sources */,
+				D20333451F74C5CF00F34391 /* UserViewCell.swift in Sources */,
+				D20333371F74C1AB00F34391 /* ViewController.swift in Sources */,
+				D2FCDD0F1F71009F0018B0ED /* UserDetailViewController.swift in Sources */,
+				D203333C1F74C1C000F34391 /* Address.swift in Sources */,
+				D204BD1D1F6B7976003BFFAC /* AppDelegate.swift in Sources */,
+				D203333D1F74C1C000F34391 /* Company.swift in Sources */,
+				D2C67BB11F74A0EB0051887B /* EditUserViewController.swift in Sources */,
+				D203333E1F74C1C000F34391 /* Geo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D204BD291F6B7976003BFFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D204BD321F6B7976003BFFAC /* BabylonKeyArchiverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D204BD341F6B7976003BFFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D204BD3D1F6B7976003BFFAC /* BabylonKeyArchiverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D204BD2F1F6B7976003BFFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D204BD181F6B7976003BFFAC /* BabylonKeyArchiver */;
+			targetProxy = D204BD2E1F6B7976003BFFAC /* PBXContainerItemProxy */;
+		};
+		D204BD3A1F6B7976003BFFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D204BD181F6B7976003BFFAC /* BabylonKeyArchiver */;
+			targetProxy = D204BD391F6B7976003BFFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D204BD201F6B7976003BFFAC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D204BD211F6B7976003BFFAC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D204BD251F6B7976003BFFAC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D204BD261F6B7976003BFFAC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D204BD3F1F6B7976003BFFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D204BD401F6B7976003BFFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D204BD421F6B7976003BFFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92689A938899A8459507799D /* Pods-BabylonKeyArchiver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabylonKeyArchiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.BabylonKeyArchiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D204BD431F6B7976003BFFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DD7504CE2F2B1DAA8511953 /* Pods-BabylonKeyArchiver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabylonKeyArchiver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.BabylonKeyArchiver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D204BD451F6B7976003BFFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BabylonKeyArchiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.BabylonKeyArchiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabylonKeyArchiver.app/BabylonKeyArchiver";
+			};
+			name = Debug;
+		};
+		D204BD461F6B7976003BFFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BabylonKeyArchiverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.BabylonKeyArchiverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabylonKeyArchiver.app/BabylonKeyArchiver";
+			};
+			name = Release;
+		};
+		D204BD481F6B7976003BFFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BabylonKeyArchiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.BabylonKeyArchiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BabylonKeyArchiver;
+			};
+			name = Debug;
+		};
+		D204BD491F6B7976003BFFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BabylonKeyArchiverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bukalapak.BabylonKeyArchiverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BabylonKeyArchiver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D204BD141F6B7975003BFFAC /* Build configuration list for PBXProject "BabylonKeyArchiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D204BD3F1F6B7976003BFFAC /* Debug */,
+				D204BD401F6B7976003BFFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D204BD411F6B7976003BFFAC /* Build configuration list for PBXNativeTarget "BabylonKeyArchiver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D204BD421F6B7976003BFFAC /* Debug */,
+				D204BD431F6B7976003BFFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D204BD441F6B7976003BFFAC /* Build configuration list for PBXNativeTarget "BabylonKeyArchiverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D204BD451F6B7976003BFFAC /* Debug */,
+				D204BD461F6B7976003BFFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D204BD471F6B7976003BFFAC /* Build configuration list for PBXNativeTarget "BabylonKeyArchiverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D204BD481F6B7976003BFFAC /* Debug */,
+				D204BD491F6B7976003BFFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D204BD111F6B7975003BFFAC /* Project object */;
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16A2323a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserDetailViewController" customModule="BabylonKeyArchiver" customModuleProvider="target">
+            <connections>
+                <outlet property="cityZipcodeLabel" destination="hXq-O3-Yjo" id="s6v-HR-L9N"/>
+                <outlet property="emailLabel" destination="YDx-8r-Efy" id="Ugk-qF-jjX"/>
+                <outlet property="streetSuiteLabel" destination="Kff-x3-uZe" id="6GR-7a-xwY"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="websiteLabel" destination="nlk-kV-fEE" id="QxT-1P-Ra7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YDx-8r-Efy">
+                    <rect key="frame" x="20" y="80" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Website:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlk-kV-fEE">
+                    <rect key="frame" x="20" y="107" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XpX-QM-VmA">
+                    <rect key="frame" x="20" y="144" width="335" height="19.5"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Street Suite" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kff-x3-uZe">
+                    <rect key="frame" x="20" y="173.5" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="City Zipcode" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hXq-O3-Yjo">
+                    <rect key="frame" x="20" y="200.5" width="335" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Kff-x3-uZe" firstAttribute="top" secondItem="XpX-QM-VmA" secondAttribute="bottom" constant="10" id="3hg-of-LH8"/>
+                <constraint firstAttribute="trailing" secondItem="YDx-8r-Efy" secondAttribute="trailing" constant="20" id="6uo-Xq-aGa"/>
+                <constraint firstItem="nlk-kV-fEE" firstAttribute="leading" secondItem="YDx-8r-Efy" secondAttribute="leading" id="BAT-7l-GiP"/>
+                <constraint firstItem="YDx-8r-Efy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="ILO-LV-eem"/>
+                <constraint firstItem="hXq-O3-Yjo" firstAttribute="leading" secondItem="Kff-x3-uZe" secondAttribute="leading" id="Iuw-ac-XiY"/>
+                <constraint firstItem="XpX-QM-VmA" firstAttribute="trailing" secondItem="nlk-kV-fEE" secondAttribute="trailing" id="Ojb-2C-fcD"/>
+                <constraint firstItem="hXq-O3-Yjo" firstAttribute="top" secondItem="Kff-x3-uZe" secondAttribute="bottom" constant="10" id="RQs-ad-cRE"/>
+                <constraint firstItem="XpX-QM-VmA" firstAttribute="leading" secondItem="nlk-kV-fEE" secondAttribute="leading" id="dfL-1R-qcx"/>
+                <constraint firstItem="Kff-x3-uZe" firstAttribute="leading" secondItem="XpX-QM-VmA" secondAttribute="leading" id="k7J-bp-SOe"/>
+                <constraint firstItem="hXq-O3-Yjo" firstAttribute="trailing" secondItem="Kff-x3-uZe" secondAttribute="trailing" id="qtM-y1-gdV"/>
+                <constraint firstItem="nlk-kV-fEE" firstAttribute="top" secondItem="YDx-8r-Efy" secondAttribute="bottom" constant="10" id="qwO-pv-kZO"/>
+                <constraint firstItem="nlk-kV-fEE" firstAttribute="trailing" secondItem="YDx-8r-Efy" secondAttribute="trailing" id="uVN-Th-PIc"/>
+                <constraint firstItem="YDx-8r-Efy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="v47-EF-1SL"/>
+                <constraint firstItem="XpX-QM-VmA" firstAttribute="top" secondItem="nlk-kV-fEE" secondAttribute="bottom" constant="20" id="ydE-cH-MSl"/>
+                <constraint firstItem="Kff-x3-uZe" firstAttribute="trailing" secondItem="XpX-QM-VmA" secondAttribute="trailing" id="yff-db-Wgf"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+        </view>
+    </objects>
+</document>
